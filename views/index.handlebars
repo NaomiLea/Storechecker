@@ -1,0 +1,64 @@
+<center>
+     <h1>Is the Nes Classic available?</h1>
+ </center>
+ <div class="box1"></div>
+ <div class="box2"></div>
+ <div class="connection"></div>
+ <div class="controller">
+     <div class="innerBox">
+         <div class="pattern" id="one"></div>
+         <div class="pattern" id="two"></div>
+         <div class="pattern" id="three">
+             <p class="option" id="select">SELECT</p>
+             <p class="option" id="start">START</p>
+         </div>
+         <div class="optionBox">
+             <button class="optionButton" id="selectButton"></button>
+             <button class="optionButton" id="startButton"> </button>
+         </div>
+         <div class="pattern" id="four"></div>
+         <div class="logo">
+             <h2 class="nintendo">Nintendo</h2>
+             <p class="nintendo" id="reg">®</p>
+         </div>
+         <div class="greyBox" id="bButton">
+             <button id="b"></button>
+         </div>
+         <div class="greyBox" id="aButton">
+             <button id="a"></button>
+         </div>
+         <button class="up">
+             <p id="up">⇧</p>
+         </button>
+         <button class="down">
+             <p id="down">⇩</p>
+         </button>
+         <button class="right">
+             <p id="right">⇨</p>
+         </button>
+         <button class="left">
+             <p id="left">⇦</p>
+         </button>
+         <div class="center">
+             <div id="middleCircle"></div>
+         </div>
+         <p class="choices" id="bchoice">B</p>
+         <p class="choices" id="achoice">A</p>
+     </div>
+ </div>
+ <img class="screen" src="http://www.pngmart.com/files/1/Old-TV-Screen-PNG.png">
+ <div class="tvText">
+     <ul>
+         <li id="search">Search availablity</li>
+         <div class="stockList">
+           {{#each stock}}
+            <div class="itemlist" id={{@index}}>
+              {{#each this}}
+                <li class="item">{{origin}}{{price}}<span class="hiddenlink">{{link}}</span></li>
+
+              {{/each}}
+            </div>
+            {{/each}}
+         </div>
+     </ul>
+ </div>

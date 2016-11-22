@@ -1,0 +1,308 @@
+@font-face {
+    font-family: "nintender";
+    src: url(nintender.ttf);
+}
+
+@font-face {
+    font-family: "nes2";
+    src: url(NES2.ttf);
+}
+
+@font-face {
+    font-family: "pressStart";
+    src: url(PressStart2P.ttf);
+}
+
+body {
+    background: radial-gradient(black 15%, transparent 16%) 0 0, radial-gradient(black 15%, transparent 16%) 8px 8px, radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 20%) 0 1px, radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 20%) 8px 9px;
+    background-color: #282828;
+    background-size: 16px 16px;
+    font-family: "nintender";
+    color: #D20014;
+}
+
+.controller {
+    width: 800px;
+    height: 300px;
+    background-color: #D3D3D3;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #6a6d72;
+    position: absolute;
+    left: 50px;
+    top: 400px;
+}
+
+.innerBox {
+    left: 25px;
+    width: 750px;
+    height: 230px;
+    background-color: #36393d;
+    position: absolute;
+    top: 50px;
+    border-radius: 10px;
+}
+
+.itemlist {
+  visibility: hidden;
+}
+
+.item{
+  display: inline-block;
+}
+
+.pattern {
+    width: 200px;
+    height: 35px;
+    background-color: #bbbfbb;
+    border-radius: 10px;
+    position: absolute;
+    left: 40%;
+}
+
+#two {
+    top: 45px;
+}
+
+#three {
+    top: 90px;
+}
+
+#four {
+    bottom: 0px;
+}
+
+.option {
+    color: #D20014;
+    display: inline-block;
+    position: absolute;
+    top: -10px;
+    font-family: "nes2";
+    font-size: 18px;
+}
+
+#select {
+    left: 10px;
+}
+
+#start {
+    left: 130px;
+}
+
+.optionBox {
+    width: 185px;
+    height:40px;
+    background-color: #f9f9f4;
+    border-radius: 10px;
+    position: absolute;
+    left: 40%;
+    top: 135px;
+    border: ridge;
+    border-width: 8px;
+}
+
+.optionButton {
+    width: 50px;
+    height: 15px;
+    background-color: #36393d;
+    border-radius: 30px;
+    display: inline-block;
+    border: outset;
+    border-color: #36393d;
+    position: absolute;
+    top: 10px;
+}
+
+#selectButton {
+    left: 10px;
+}
+
+#startButton {
+    left: 130px;
+}
+
+.nintendo {
+    position: absolute;
+    display: inline-block;
+    top: 15px;
+}
+
+.logo {
+    position: absolute;
+    font-size: 20px;
+    left: 550px;
+}
+
+#reg {
+    position: absolute;
+    font-size: 18px;
+    top: 15px;
+    left: 145px;
+}
+
+.greyBox {
+    width: 70px;
+    height: 70px;
+    background-color: #D3D3D3;
+    display: inline-block;
+    border-radius: 10px;
+    position: absolute;
+    top: 130px;
+}
+
+#bButton {
+    left: 550px;
+}
+
+#aButton {
+    left: 640px;
+}
+
+#b,
+#a {
+    border-radius: 100px;
+    background-color: #D20014;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border: outset;
+    border-color: #36393d;
+    border-width: 5px;
+    box-shadow: 0px 0px 0px #888888;
+}
+
+button:focus {
+    outline: none;
+}
+
+.up,
+.down,
+.right,
+.left,
+.center {
+    width: 50px;
+    height: 50px;
+    background-color: #1a1c1b;
+    border-radius: 5px;
+    border: outset;
+    position: absolute;
+    border-width: 5px;
+}
+
+#middleCircle {
+    border-radius: 50px;
+    height: 30px;
+    width: 30px;
+    background-color: #212323;
+    border: inset;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    border-color: #1c1e1e;
+}
+
+.up {
+    top: 60px;
+    left: 100px;
+}
+
+.center {
+    top: 105px;
+    left: 100px;
+    border: none;
+    z-index: 1;
+}
+
+.down {
+    top: 150px;
+    left: 100px;
+}
+
+.left {
+    top: 105px;
+    left: 55px;
+}
+
+.right {
+    top: 105px;
+    left: 145px;
+}
+
+#up,
+#down,
+#right,
+#left {
+    color: #333837;
+    font-size: 32px;
+    position: absolute;
+    left: 10px;
+    top: 0px;
+}
+
+.choices {
+    display: inline-block;
+    position: absolute;
+    top: 190px;
+}
+
+#bchoice {
+    left: 600px;
+}
+
+#achoice {
+    left: 690px;
+}
+
+.box1 {
+    width: 400px;
+    height: 300px;
+    border: solid 10px #000;
+    border-color: transparent #000 transparent transparent;
+    border-radius: 50%/100px 200px 100px 200px;
+    position: absolute;
+    top: 200px;
+}
+
+.box2 {
+    width: 400px;
+    height: 300px;
+    border: solid 10px #000;
+    border-color: transparent transparent transparent #000;
+    border-radius: 100px 100px 100px 100px;
+    position: absolute;
+    left: 350px;
+    top: -5px;
+}
+
+.connection {
+    width: 150px;
+    height: 70px;
+    background-color: #0f1111;
+    border-radius: 10px 10px 30px 30px;
+    position: absolute;
+    top: 0px;
+    left: 280px;
+}
+
+.screen {
+    position: absolute;
+    left: 1000px;
+    top: 200px;
+    height: 500px;
+    width: 800px;
+    background: black;
+}
+
+.tvText {
+    position: absolute;
+    left: 1100px;
+    top: 300px;
+    font-family: "pressStart";
+    font-size: 18px;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
