@@ -306,3 +306,7 @@ button:focus {
 ul {
     list-style-type: none;
 }
+
+span {
+    visibility: hidden;
+}
