@@ -34,8 +34,8 @@ $(document).ready(function() {
         item1.style.color = "red";
         i++;
         $("#aButton").click(function() {
-          $(".screen").css("background-image", "url(https://upload.wikimedia.org/wikipedia/en/5/50/NES_Super_Mario_Bros.png)");
-          $("li").css("display", "none");
+        var url = $("#link"+i).text();
+           window.location.href = url;
         })
     })
 

@@ -46,6 +46,10 @@ body {
   visibility: hidden;
 }
 
+.hiddenlink {
+  visibility: hidden;
+}
+
 .item{
   display: inline-block;
 }
@@ -75,7 +79,7 @@ body {
     color: #D20014;
     display: inline-block;
     position: absolute;
-    top: -10px;
+    top: 3px;
     font-family: "nes2";
     font-size: 18px;
 }
@@ -89,8 +93,8 @@ body {
 }
 
 .optionBox {
-    width: 185px;
-    height:40px;
+    width: 200px;
+    height: 50px;
     background-color: #f9f9f4;
     border-radius: 10px;
     position: absolute;
@@ -123,19 +127,19 @@ body {
 .nintendo {
     position: absolute;
     display: inline-block;
-    top: 15px;
+    top: 20px;
 }
 
 .logo {
     position: absolute;
-    font-size: 20px;
+    font-size: 30px;
     left: 550px;
 }
 
 #reg {
     position: absolute;
     font-size: 18px;
-    top: 15px;
+    top: 30px;
     left: 145px;
 }
 
@@ -237,13 +241,13 @@ button:focus {
     font-size: 32px;
     position: absolute;
     left: 10px;
-    top: -30px;
+    top: 0px;
 }
 
 .choices {
     display: inline-block;
     position: absolute;
-    top: 190px;
+    top: 205px;
 }
 
 #bchoice {
@@ -271,7 +275,7 @@ button:focus {
     border-color: transparent transparent transparent #000;
     border-radius: 100px 100px 100px 100px;
     position: absolute;
-    left: 350px;
+    left: 305px;
     top: -5px;
 }
 
@@ -282,7 +286,7 @@ button:focus {
     border-radius: 10px 10px 30px 30px;
     position: absolute;
     top: 0px;
-    left: 280px;
+    left: 230px;
 }
 
 .screen {

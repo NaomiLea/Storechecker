@@ -53,10 +53,7 @@
          <div class="stockList">
            {{#each stock}}
             <div class="itemlist" id={{@index}}>
-              {{#each this}}
-                <li class="item">{{origin}}{{price}}<span class="hiddenlink">{{link}}</span></li>
-
-              {{/each}}
+                <li class="item">{{origin}}  {{price}}<span class="hiddenlink" id="link{{@index}}">{{link}}</span></li>
             </div>
             {{/each}}
          </div>
