@@ -34,8 +34,10 @@ $(document).ready(function() {
         item1.style.color = "red";
         i++;
         $("#aButton").click(function() {
-        var url = $("#link"+i).text();
-           window.location.href = url;
+        
+        var url = $("#link"+(i-1)).text();
+            window.location.href = url;
+           console.log(url);
         })
     })
 

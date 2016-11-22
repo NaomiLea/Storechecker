@@ -310,3 +310,7 @@ ul {
 span {
     visibility: hidden;
 }
+
+button, button:hover{
+    cursor: url(http://cur.cursors-4u.net/games/gam-1/gam62.cur), progress !important;}
+
