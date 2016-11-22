@@ -237,7 +237,7 @@ button:focus {
     font-size: 32px;
     position: absolute;
     left: 10px;
-    top: 0px;
+    top: -30px;
 }
 
 .choices {
