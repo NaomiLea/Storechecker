@@ -43,11 +43,11 @@ body {
 }
 
 .itemlist {
-  visibility: hidden;
+    visibility: hidden;
 }
 
-.item{
-  display: inline-block;
+.item {
+    display: inline-block;
 }
 
 .pattern {
@@ -90,7 +90,7 @@ body {
 
 .optionBox {
     width: 185px;
-    height:40px;
+    height: 40px;
     background-color: #f9f9f4;
     border-radius: 10px;
     position: absolute;
@@ -294,7 +294,8 @@ button:focus {
     background: black;
 }
 
-.tvText {
+.tvText,
+.games {
     position: absolute;
     left: 1100px;
     top: 300px;
@@ -302,6 +303,11 @@ button:focus {
     font-size: 18px;
     color: white;
 }
+
+.games {
+    visibility: hidden;
+}
+
 
 ul {
     list-style-type: none;
@@ -311,6 +317,7 @@ span {
     visibility: hidden;
 }
 
-button, button:hover{
-    cursor: url(http://cur.cursors-4u.net/games/gam-1/gam62.cur), progress !important;}
-
+button,
+button:hover {
+    cursor: url(http://cur.cursors-4u.net/games/gam-1/gam62.cur), progress !important;
+}

@@ -47,15 +47,33 @@
      </div>
  </div>
  <img class="screen" src="http://www.pngmart.com/files/1/Old-TV-Screen-PNG.png">
- <div class="tvText">
-     <ul>
-         <li id="search">Search availablity</li>
-         <div class="stockList">
-           {{#each stock}}
-            <div class="itemlist" id={{@index}}>
-                <li class="item">{{origin}}  {{price}}<span class="hiddenlink" id="link{{@index}}">{{link}}</span></li>
-            </div>
-            {{/each}}
-         </div>
-     </ul>
- </div>
+ <div class="screenContent">
+     <div class="tvText">
+         <ul>
+             <li id="search">Search availablity</li>
+             <div class="stockList">
+               {{#each stock}}
+
+                <div class="itemlist" id={{@index}}>
+                    <li class="item">{{origin}}  {{price}}<span class="hiddenlink" id="link{{@index}}">{{link}}</span></li>
+                </div>
+                {{/each}}
+
+
+             </div>
+
+         </ul>
+     </div>
+     <div class="games">
+        <ul>
+            <li>Games available</li>
+            <li>Donkey Kong</li>
+            <li>Kirby's adventure</li>
+            <li>Metroid</li>
+            <li>Pacman</li>
+            <li>Super Mario</li>
+            <li>Zelda</li>
+        <ul>
+     </div>
+</div>
+
